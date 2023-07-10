@@ -8,7 +8,7 @@
   color: #e55473;
 }
 .btn {
-  padding: 20px 40px;
+  padding: 15px 40px;
   background-color: #e55473;
   color: white;
   border: none;
@@ -232,6 +232,7 @@ width: 250px;
 .instagram{
     width:1140px;
     margin: auto;
+    margin-bottom: 150px;
 }
 .instagram-container{
     display: flex;
@@ -243,4 +244,49 @@ width: 250px;
     border-radius:5px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
+}
+
+/* latest deals section  */
+.latest-deals{
+    width: 1140px;
+    margin: auto;
+    background-image: url("../images/Rectangle\ 9.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    padding:80px 0;
+    margin-bottom:150px;
+   
+ 
+}
+.latest-deals-container{
+    padding:10px 0;
+}
+input[type="email"]{
+    padding:20px 25px;
+    width: 80%;
+    border:none;
+    outline: none;
+    border-radius: 5px;
+}
+.latest-input{
+    display: flex;
+    gap:20px;
+    width: 65%;
+    margin: auto;
+}
+/* footer section  */
+footer{
+    background-color: #111010;
+    padding:120px;
+    
+}
+.footer-title{
+    color: white;
+}
+
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+}
+.copyright{
+    
 }
